@@ -3,6 +3,9 @@
 
 #import "BatchFirebaseDispatcher.h"
 
+#define DISPATCHER_NAME @"firebase"
+#define DISPATCHER_VERSION 1
+
 NSString* const BatchFirebaseUtmCampaign = @"utm_campaign";
 NSString* const BatchFirebaseUtmSource = @"utm_source";
 NSString* const BatchFirebaseUtmMedium = @"utm_medium";
@@ -196,6 +199,16 @@ NSString* const BatchFirebaseWebViewAnalyticsId = @"batch_webview_analytics_id";
         default:
             return @"batch_unknown";
     }
+}
+
+- (nonnull NSString*)name
+{
+    return DISPATCHER_NAME;
+}
+
+- (NSUInteger)version
+{
+    return DISPATCHER_VERSION;
 }
 
 @end
