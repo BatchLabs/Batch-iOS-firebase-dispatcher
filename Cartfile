@@ -1,2 +1,2 @@
-github "BatchLabs/ios-sdk" >= 1.15.0
+github "BatchLabs/ios-sdk" >= 1.19.0
 binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseAnalyticsBinary.json"
