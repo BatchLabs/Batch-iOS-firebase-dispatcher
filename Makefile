@@ -32,6 +32,10 @@ test-sonar: clean
 		-Dsonar.host.url=$(SONAR_URL) \
 		-classpath $(CURDIR)/.sonar/sonar-scanner-cli-4.2.0.1873.jar \
 		org.sonarsource.scanner.cli.Main
+		
+remove-package:
+	# Xcode 13.3 break Package.resolved format, github action workaround : removing it
+	rm -rf BatchFirebaseDispatcher.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
 
 carthage:
 	carthage bootstrap --platform ios --use-xcframeworks

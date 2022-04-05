@@ -8,7 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run CI
-        run: make ci
+        run: |
+            make remove-package
+            make ci
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
