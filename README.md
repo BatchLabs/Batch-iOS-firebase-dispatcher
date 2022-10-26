@@ -5,7 +5,7 @@
 Batch.com iOS Firebase Event Dispatcher
 ==================
 
-![Logo](http://batch-doc.s3.amazonaws.com/logo_batch_192.gif)
+<img src="https://static.batch.com/documentation/Readmes/logo_batch_full_178@2x.png" srcset="https://static.batch.com/documentation/Readmes/logo_batch_full_178.png 1x" width="178" height="80" alt="Batch Logo" />
 
 # About
 
@@ -18,7 +18,8 @@ You can find a guide explaining how to use the reported events [here](https://he
 # Requirements
  - Xcode 13
  - iOS 10+
- - Batch 1.19
+ - Batch 1.19+
+ - Firebase 8.10+
 
 # Installation
 
@@ -34,6 +35,14 @@ Read our [setup documentation](https://doc.batch.com/) to follow a step by step 
 
 ```
 github "BatchLabs/Batch-iOS-firebase-dispatcher"
+```
+
+### SPM
+
+Add package: 
+
+```
+https://github.com/BatchLabs/Batch-iOS-firebase-dispatcher.git
 ```
 
 # Documentation
