@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/BatchLabs/Batch-iOS-SDK", from: "1.19.0"),
-        .package(url: "https://github.com/firebase/firebase-ios-sdk", "8.10.0"..."10.0.0"),
+        .package(url: "https://github.com/firebase/firebase-ios-sdk", "8.10.0"..."99.0.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
