@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 3.2.0
+
+ * Added Batch SDK v2 support.
+
 ## 3.1.0
 
 _This version is not available on cocoapod as it only adds support for SPM._
