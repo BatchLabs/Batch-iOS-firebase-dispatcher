@@ -409,7 +409,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = U5K2ETC2Y6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -428,7 +428,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.batch.ios.BatchFirebaseDispatcher;
 				PRODUCT_NAME = BatchFirebaseDispatcher;
 				SKIP_INSTALL = YES;
@@ -441,7 +441,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = U5K2ETC2Y6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -460,7 +460,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.batch.ios.BatchFirebaseDispatcher;
 				PRODUCT_NAME = BatchFirebaseDispatcher;
 				SKIP_INSTALL = YES;

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BatchFirebaseDispatcher'
-  s.version          = '3.1.0'
+  s.version          = '3.2.0'
   s.summary          = 'Batch.com Events Dispatcher Firebase implementation.'
 
   s.description      = <<-DESC
