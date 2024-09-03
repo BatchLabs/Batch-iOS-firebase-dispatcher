@@ -1,7 +1,7 @@
 all: framework
 
 PROJECT=BatchFirebaseDispatcher.xcodeproj
-SIMULATOR='platform=iOS Simulator,name=iPhone 11'
+SIMULATOR='platform=iOS Simulator,name=iPhone 15'
 DERIVED_DATA=$(CURDIR)/DerivedData
 SONAR_HOME=$(CURDIR)/.sonar
 SONAR_WORKDIR=$(CURDIR)/.scannerwork/
@@ -40,6 +40,6 @@ remove-package:
 carthage:
 	carthage bootstrap --platform ios --use-xcframeworks
 
-ci: carthage test
+ci: test
 
 .PHONY: carthage test
