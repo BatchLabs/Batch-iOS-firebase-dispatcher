@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.static_framework = true
   
-  s.dependency 'Batch', '~> 1.19'
+  s.dependency 'Batch', '>= 1.19'
   s.dependency 'Firebase/Analytics'
   
   s.source_files = 'BatchFirebaseDispatcher/Classes/**/*'

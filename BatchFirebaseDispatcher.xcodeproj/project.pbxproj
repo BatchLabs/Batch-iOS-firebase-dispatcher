@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,13 +11,13 @@
 		51053781241257F900589FC6 /* BatchFirebaseDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5105377F241257F400589FC6 /* BatchFirebaseDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51C49D7525F7B28800C8E4F6 /* Batch in Frameworks */ = {isa = PBXBuildFile; productRef = 51C49D7425F7B28800C8E4F6 /* Batch */; };
 		51C49D7C25F7B32F00C8E4F6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 51C49D7B25F7B32F00C8E4F6 /* FirebaseAnalytics */; };
-		51C49D8425F7B40D00C8E4F6 /* OCMock.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C49D8325F7B40D00C8E4F6 /* OCMock.xcframework */; };
 		51C49D8C25F7B44E00C8E4F6 /* Batch in Frameworks */ = {isa = PBXBuildFile; productRef = 51C49D8B25F7B44E00C8E4F6 /* Batch */; };
 		51C49D8E25F7B45000C8E4F6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 51C49D8D25F7B45000C8E4F6 /* FirebaseAnalytics */; };
 		625AA2FA2424F4BB000DACC4 /* BatchFirebaseDispatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D530C82412553C009E7531 /* BatchFirebaseDispatcher.framework */; };
 		625AA30E2424F59C000DACC4 /* BatchFirebaseDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 625AA3052424F538000DACC4 /* BatchFirebaseDispatcherTests.m */; };
 		625AA30F2424F59C000DACC4 /* BatchPayloadDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 625AA3062424F538000DACC4 /* BatchPayloadDispatcherTests.m */; };
 		625AA3132424F5E4000DACC4 /* Tests-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 625AA3072424F538000DACC4 /* Tests-Prefix.pch */; };
+		7EF6AC6E2C8752E800644A09 /* OCMock in Frameworks */ = {isa = PBXBuildFile; productRef = 7EF6AC6D2C8752E800644A09 /* OCMock */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 /* Begin PBXFileReference section */
 		5105377E241257F400589FC6 /* BatchFirebaseDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchFirebaseDispatcher.m; path = Classes/BatchFirebaseDispatcher.m; sourceTree = "<group>"; };
 		5105377F241257F400589FC6 /* BatchFirebaseDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchFirebaseDispatcher.h; path = Classes/BatchFirebaseDispatcher.h; sourceTree = "<group>"; };
-		51C49D8325F7B40D00C8E4F6 /* OCMock.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OCMock.xcframework; path = Carthage/Build/OCMock.xcframework; sourceTree = "<group>"; };
 		51D530C82412553C009E7531 /* BatchFirebaseDispatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BatchFirebaseDispatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D530D3241256E8009E7531 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Module/Info.plist; sourceTree = "<group>"; };
 		625AA2F52424F4BB000DACC4 /* BatchFirebaseDispatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatchFirebaseDispatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +63,6 @@
 			files = (
 				51C49D7C25F7B32F00C8E4F6 /* FirebaseAnalytics in Frameworks */,
 				51C49D7525F7B28800C8E4F6 /* Batch in Frameworks */,
-				51C49D8425F7B40D00C8E4F6 /* OCMock.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +72,7 @@
 			files = (
 				625AA2FA2424F4BB000DACC4 /* BatchFirebaseDispatcher.framework in Frameworks */,
 				51C49D8C25F7B44E00C8E4F6 /* Batch in Frameworks */,
+				7EF6AC6E2C8752E800644A09 /* OCMock in Frameworks */,
 				51C49D8E25F7B45000C8E4F6 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,7 +83,6 @@
 		5105378224125A0100589FC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				51C49D8325F7B40D00C8E4F6 /* OCMock.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,6 +183,7 @@
 			packageProductDependencies = (
 				51C49D8B25F7B44E00C8E4F6 /* Batch */,
 				51C49D8D25F7B45000C8E4F6 /* FirebaseAnalytics */,
+				7EF6AC6D2C8752E800644A09 /* OCMock */,
 			);
 			productName = BatchFirebaseDispatcherTests;
 			productReference = 625AA2F52424F4BB000DACC4 /* BatchFirebaseDispatcherTests.xctest */;
@@ -219,6 +218,7 @@
 			packageReferences = (
 				51C49D7325F7B28800C8E4F6 /* XCRemoteSwiftPackageReference "Batch-iOS-SDK" */,
 				51C49D7A25F7B32F00C8E4F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				7EF6AC6C2C8752E800644A09 /* XCRemoteSwiftPackageReference "ocmock" */,
 			);
 			productRefGroup = 51D530C92412553C009E7531 /* Products */;
 			projectDirPath = "";
@@ -547,16 +547,26 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/BatchLabs/Batch-iOS-SDK.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.17.0;
+				kind = versionRange;
+				maximumVersion = 99.0.0;
+				minimumVersion = 1.19.0;
 			};
 		};
 		51C49D7A25F7B32F00C8E4F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.7.0;
+				kind = versionRange;
+				maximumVersion = 99.0.0;
+				minimumVersion = 8.10.0;
+			};
+		};
+		7EF6AC6C2C8752E800644A09 /* XCRemoteSwiftPackageReference "ocmock" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/erikdoe/ocmock";
+			requirement = {
+				kind = revision;
+				revision = 2c0bfd373289f4a7716db5d6db471640f91a6507;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -581,6 +591,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 51C49D7A25F7B32F00C8E4F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalytics;
+		};
+		7EF6AC6D2C8752E800644A09 /* OCMock */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EF6AC6C2C8752E800644A09 /* XCRemoteSwiftPackageReference "ocmock" */;
+			productName = OCMock;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
