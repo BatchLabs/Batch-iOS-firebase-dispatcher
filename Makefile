@@ -1,7 +1,7 @@
 all: framework
 
 PROJECT=BatchFirebaseDispatcher.xcodeproj
-SIMULATOR='platform=iOS Simulator,name=iPhone 15'
+SIMULATOR='platform=iOS Simulator,name=iPhone 16'
 DERIVED_DATA=$(CURDIR)/DerivedData
 SONAR_HOME=$(CURDIR)/.sonar
 SONAR_WORKDIR=$(CURDIR)/.scannerwork/

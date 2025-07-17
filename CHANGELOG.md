@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 4.0.0
+
+ * Batch Firebase Dispatcher now requires iOS 15.0 or higher
+  
 ## 3.2.0
 
  * Added Batch SDK v2 support.

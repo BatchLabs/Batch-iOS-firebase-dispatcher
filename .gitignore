@@ -33,3 +33,5 @@ Carthage
 Example/Pods/
 .scannerwork/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+.build/

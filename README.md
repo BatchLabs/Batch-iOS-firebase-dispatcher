@@ -17,7 +17,7 @@ You can find a guide explaining how to use the reported events [here](https://he
 
 # Requirements
  - Xcode 13
- - iOS 10+
+ - iOS 15+
  - Batch 1.19+
  - Firebase 8.10+
 
